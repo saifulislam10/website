@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding:0;
+}
+p{
+	font-family: 'Sofia', cursive;
+}
+
+.Logo {
+    width: 200px;
+    margin-left: 40px;
+}
+
+img {
+    padding: 0px;
+    margin-top: -9px;
+}
+.menu{
+	text-align: center;
+}
+.menu a{
+	padding: 9px;
+	margin: 27px;
+	transition: .4s;
+}
+.menu a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #57575aab;
+}
+#top2{
+	background-image: url("../img/bg2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	
+}
+.contant{
+	background-color: rgba(0,0,0, 0.4);
+	min-height: 500px;
+	margin-top: -10px;
+}
+.container h1{
+	font-weight: bold !important;
+	color:#fff !important;
+	font-size: 50px;
+}
+.container p{
+	color: #ddd;
+	font-size: 24px;
+	width: 611px;
+	margin: auto;
+	padding: 0px 0px 50px 0px;
+}
+#top2 .contant .container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+#our-product{
+	margin: 50px 0px;
+}
+.toppp h1{
+	color: #555 !important;
+	text-transform: uppercase;
+	width: 230px;
+	margin: auto;
+	border-bottom: 3px solid #555;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+	margin-top: 60px;
+}
+.card{
+	border: 1px solid #ddd;
+	background: #4e00008a;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+.icon {
+    border: 3px solid #ddd;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #ffd71059;
+    box-shadow: inset -4px -8px 20px 0px;
+    margin: 30px auto;
+    position: relative;
+    transition: all .5s;
+}
+.icon:hover{
+	box-shadow: inset 0px 0px 5px 1px;
+}
+.icon .fab {
+    font-size: 50px;
+    position: absolute;
+    top: 23%;
+    left: 27%;
+    color: #6d6464ad;
+}
+.icon:hover .fab{
+	color: #6d6464;
+
+}
+.card .text {
+    text-align: center;
+}
+.card .text h3 {
+    color: #fff;
+    border-bottom: 5px solid #ffffff4a;
+    padding: 15px 0px;
+    border-top: 5px solid #ffffff4a;
+}
+.card .text p{
+	width: 100%;
+	margin: auto;
+	color: #fff;
+	padding: 40px 0px ;
+}
+
+/*about us design start*/
+#About-us{
+	background:#99999940;
+	padding:50px;
+}
+.col-lg-6 {
+    padding: 20px;
+}
+.col-lg-6 h3{
+    font-weight: bold;
+    margin: 50px;
+    text-align: center;
+}
+.col-lg-6 p{
+    color: #333;
+}
+.col-lg-6 .imgg{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin: auto;
+    overflow: hidden;
+}
+.col-lg-6 .imgg img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*about us design end*/
+
+/*personal-info design start*/
+#personal{
+	background: #ffffff;
+	padding: 20px 0px;
+}
+.col-lg-8 .imgg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    float: left;
+    margin: 29px 30px;
+}
+.col-lg-8 .imgg img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.left .fas,
+.right .fas {
+    color: #ddd;
+    font-size: 150px;
+    margin: 50px 0px;
+    width: 100%;
+    cursor: pointer;
+}
+.contantt .text {
+    border-radius: 20px;
+    text-align: left;
+}
+.col-lg-2 {
+    text-align: center;
+}
+.text h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+
+.contantt .text p {
+    width: 500px;
+    /* float: right; */
+}
+/*personal-info design end*/
+/*input design start*/
+#input{
+	background:#43CB83;
+	height: 100px;
+	position: relative;
+
+}
+input.in1 {
+    width: 90%;
+    font-size: 20px;
+    padding: 20px;
+    margin: 16px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding-right: 170px;
+}
+input.in2 {
+    color: #333;
+    background: #85d67f;
+    padding: 19px 70px;
+    font-size: 22px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    right: 130px;
+    border-radius: 50px;
+    border: navajowhite;
+    outline: navajowhite;
+    cursor: pointer;
+}
+/*input design end*/
+/*f1 design strted*/
+#f1{
+	background: #000000bf;
+	padding-top: 60px;
+}
+.text {
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+.card1 .text h3 {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 5px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 16px;
+}
+
+.card1 .text p {
+    color: #999;
+    width: 90%;
+    text-align: left;
+    margin-left: 0px;
+}
+/*f1 design end*/
+.col-lg-8.contantt {
+    background: #33333378;
+    border-radius: 50px;
+}
+.h6{
+	text-align: center;
+	background:#999;
+	padding:20px;
+	font-size: 20px;
+	margin: 0px;
+}
